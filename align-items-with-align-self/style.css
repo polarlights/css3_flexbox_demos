@@ -33,6 +33,26 @@ and (max-device-width: 1376px) {
   align-items: baseline;
 }
 
+.self-flex-start {
+   align-self: flex-start;
+}
+
+.self-flex-end {
+   align-self: flex-end;
+}
+
+.self-center {
+   align-self: center;
+}
+
+.self-stretch {
+   align-self: stretch;
+}
+
+.self-baseline {
+   align-self: baseline;
+}
+
 .container {
   margin: 10px 10px;
   border-bottom: 2px solid #000;
@@ -69,4 +89,24 @@ and (max-device-width: 1376px) {
 
 .box5 {
   background: #808080;
+}
+
+.box6 {
+  background: #FAFAD2;
+}
+
+.box7 {
+  background: #FA8072;
+}
+
+.box8 {
+  background: #ffa500;
+}
+
+.box9 {
+  background: #DEB887;
+}
+
+.box10 {
+  background: #E9967A;
 }
