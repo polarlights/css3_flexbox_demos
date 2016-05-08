@@ -65,8 +65,9 @@
   flex-flow: column-reverse wrap-reverse;
 }
 
-.column-reverse-nowrap, .column-wrap, .column-wrap-reverse, .column-reverse-nowrap, .column-reverse-wrap, .column-reverse-wrap-reverse {
+.column-nowrap, .column-wrap, .column-wrap-reverse, .column-reverse-nowrap, .column-reverse-wrap, .column-reverse-wrap-reverse {
    max-height: 200px;
+   overflow-y: auto;
 }
 
 .row {
