@@ -1,0 +1,49 @@
+.container {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #000;
+}
+
+.box1 {
+  background: #ffe4e1;
+}
+
+.box2 {
+  background: #afeeee;
+}
+
+.box3 {
+  background: #ffe4b5;
+}
+
+.box4 {
+   background: #fCD853;
+}
+
+.box5 {
+   background: #808080;
+}
+
+.box6 {
+   background: #FAFAD2;
+}
+
+.box7 {
+   background: #FA8072;
+}
+
+.box8 {
+   background: #ffa500;
+}
+
+.box9 {
+   background: #DEB887;
+}
+
+.box10 {
+   background: #E9967A;
+}
+
+.flex {
+   display: -webkit-flex; /* for Safari */
+   display: flex;
+}
