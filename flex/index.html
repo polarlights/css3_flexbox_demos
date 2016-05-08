@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/normalize.css" type="text/css"/>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <title>Flex Layout flex</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>flex: default</h2>
+      <div class="flex">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+        <div class="box box5">5</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>flex: 0  1 auto </h2>
+      <div class="flex">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+        <div class="box box5">5</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>flex: 0  0 auto </h2>
+      <div class="flex">
+        <div class="box box1">1</div>
+        <div class="box box2 shrink0">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+        <div class="box box5">5</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>flex: 1 1 auto</h2>
+      <div class="flex">
+        <div class="box box1">1</div>
+        <div class="box box2 grow1">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+        <div class="box box5">5</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>flex: 1 0 auto</h2>
+      <div class="flex">
+        <div class="box box1">1</div>
+        <div class="box box2 grow1 shrink0">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+        <div class="box box5">5</div>
+      </div>
+    </div>
+    <div class="container">
+      <h2>flex: 1 1 150px</h2>
+      <div class="flex">
+        <div class="box box1">1</div>
+        <div class="box box2 basis150">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+        <div class="box box5">5</div>
+      </div>
+    </div>
+
+  </body>
+</html>

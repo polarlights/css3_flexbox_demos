@@ -1,0 +1,84 @@
+@media only screen
+and (max-device-width: 1376px) {
+  h2 {
+    font-size: 1.2em;
+  }
+}
+.flex {
+   display: -webkit-flex; /* for Safari */
+   display: flex;
+   flex-flow: row wrap;
+   width: 50%;
+   height: 600px;
+   border: 1px solid #ccc;
+}
+
+.grow1 {
+   flex-grow: 1;
+}
+
+.shrink0 {
+  flex-shrink: 0;
+}
+
+.basis150 {
+   flex-basis: 150px;
+}
+
+.container {
+  margin: 10px 10px;
+  border-bottom: 2px solid #000;
+}
+
+.box {
+  color: #ffffff;
+  font-size: 48px;
+  text-align: center;
+  text-shadow: 4px 4px 0 rgba(0,  0,  0,  0.1);
+  width: 40%;
+}
+
+.box p {
+  display: inherit;
+}
+
+.box1 {
+  background: #ffe4e1;
+}
+
+.box2 {
+  background: #afeeee;
+}
+
+.box3 {
+  background: #ffe4b5;
+  min-height: 30%;
+}
+
+.box4 {
+  background: #fCD853;
+}
+
+.box5 {
+  background: #808080;
+}
+
+.box6 {
+  background: #FAFAD2;
+}
+
+.box7 {
+  background: #FA8072;
+}
+
+.box8 {
+  background: #ffa500;
+}
+
+.box9 {
+  background: #DEB887;
+}
+
+.box10 {
+  background: #E9967A;
+}
