@@ -1,0 +1,90 @@
+.flex {
+   display: -webkit-flex; /* for Safari */
+   display: flex;
+   flex-flow: row wrap;
+   width: 600px;
+   height: 600px;
+   border: 1px solid #ccc;
+}
+
+.flex-start {
+  align-content: flex-start;
+}
+
+.flex-end {
+  align-content: flex-end;
+}
+
+.center {
+  align-content: center;
+}
+
+.space-between {
+  align-content: space-between;
+}
+
+.space-around {
+  align-content: space-around;
+}
+
+.container {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #000;
+}
+
+.box {
+  color: #ffffff;
+  font-size: 48px;
+  text-align: center;
+  text-shadow: 4px 4px 0 rgba(0,  0,  0,  0.1);
+  margin: 20px;
+  width: 200px;
+}
+
+.box p {
+  display: inherit;
+}
+
+.flex-start {
+   align-content: flex-start;
+}
+
+.flex-end {
+   align-content: flex-end;
+}
+
+.center {
+   align-content: center;
+}
+
+.space-between {
+   align-content: space-between;
+}
+
+.space-around {
+   align-content: space-around;
+}
+
+.stretch {
+   align-content: stretch;
+}
+
+.box1 {
+  background: #ffe4e1;
+}
+
+.box2 {
+  background: #afeeee;
+}
+
+.box3 {
+  background: #ffe4b5;
+}
+
+.box4 {
+  background: #fCD853;
+}
+
+.box5 {
+  background: #808080;
+}
