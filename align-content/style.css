@@ -1,8 +1,14 @@
+@media only screen
+and (max-device-width: 1376px) {
+  h2 {
+    font-size: 1.2em;
+  }
+}
 .flex {
    display: -webkit-flex; /* for Safari */
    display: flex;
    flex-flow: row wrap;
-   width: 600px;
+   width: 50%;
    height: 600px;
    border: 1px solid #ccc;
 }
@@ -28,7 +34,7 @@
 }
 
 .container {
-  margin-bottom: 20px;
+  margin: 10px 10px;
   border-bottom: 2px solid #000;
 }
 
@@ -38,7 +44,7 @@
   text-align: center;
   text-shadow: 4px 4px 0 rgba(0,  0,  0,  0.1);
   margin: 20px;
-  width: 200px;
+  width: calc(40% - 60px);
 }
 
 .box p {
